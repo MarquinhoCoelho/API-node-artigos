@@ -1,0 +1,24 @@
+GET http://localhost:3333/artigos
+
+###
+
+POST http://localhost:3333/artigos
+Content-Type: application/json
+
+{
+  "nome": "Jogo do Mário",
+  "descricao": "Meus conhecimentos em JavaScript implementando um jogo do Mario manipulando imagens e o som a partir de um navegador.",
+  "conteudo": "Esse é o Jogo do Mario",
+  "imagem": "https://via.placeholder.com/150",
+  "github": "https://github.com/MarquinhoCoelho/mario"
+}
+
+#  "conteudo": "JavaScript é uma linguagem de programação amplamente utilizada no desenvolvimento web, tanto no lado do cliente quanto no servidor. Ela possibilita a criação de páginas web interativas e dinâmicas. Utilizamos o Fastify como framework para auxiliar no desenvolvimento. Dentre todos os frameworks disponíveis para uso com Node.js, escolhemos o Fastify por proporcionar maior liberdade no desenvolvimento. Diferente de outros frameworks que impõem padrões rígidos, o Fastify permite uma abordagem mais flexível, adaptando-se melhor às necessidades específicas do projeto.",
+
+
+###
+
+DELETE http://localhost:3333/artigos/1
+
+###
+

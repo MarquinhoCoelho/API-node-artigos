@@ -1,0 +1,23 @@
+{
+  "name": "node-backend-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "fastify": "^4.28.1",
+    "postgres": "^3.4.4"
+  },
+  "devDependencies": {
+    "vitest": "^2.0.5"
+  }
+}
